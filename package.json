@@ -1,0 +1,31 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React app Start",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/LincyVarkey/React#readme",
+  "bugs": {
+    "url": "https://github.com/LincyVarkey/React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LincyVarkey/React.git"
+  },
+  "license": "ISC",
+  "author": "Lincy vARKEY",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
